@@ -1,6 +1,6 @@
 name: Documentation Issue
 description: Report missing, outdated, or unclear documentation
-title: ""
+title: "[Documentation]: "
 labels:
   - documentation
 body:

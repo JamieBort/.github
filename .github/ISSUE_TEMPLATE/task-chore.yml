@@ -1,6 +1,6 @@
 name: Task / Chore
 description: Track internal tasks or project maintenance
-title: ""
+title: "[Task / Chore]: "
 labels:
   - task
 body:
