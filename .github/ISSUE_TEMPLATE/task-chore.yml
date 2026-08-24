@@ -1,0 +1,35 @@
+name: Task / Chore
+description: Track internal tasks or project maintenance
+title: ""
+labels:
+  - task
+body:
+  - type: textarea
+    id: task-description
+    attributes:
+      label: Task Description
+      description: Provide a clear description of the task or chore.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-checklist
+    attributes:
+      label: Steps / Checklist
+      description: Break the task into actionable steps.
+      value: |
+        - [ ] Step 1
+        - [ ] Step 2
+        - [ ] Step 3
+
+  - type: textarea
+    id: priority-deadline
+    attributes:
+      label: Priority / Deadline
+      description: Optional. Indicate priority level or deadline if relevant.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other information that helps clarify the task.

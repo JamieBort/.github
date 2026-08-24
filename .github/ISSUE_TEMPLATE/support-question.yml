@@ -1,0 +1,39 @@
+name: Support / Question
+description: Ask a question or request guidance
+title: ""
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What is your question or support request?
+    validations:
+      required: true
+
+  - type: textarea
+    id: background-context
+    attributes:
+      label: Background / Context
+      description: Provide background information or context to help us understand your situation.
+
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What I’ve Tried
+      description: List the steps you’ve already taken to solve the problem.
+
+  - type: textarea
+    id: expected-outcome
+    attributes:
+      label: Expected Outcome / Goal
+      description: What is your goal or desired result?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any other details or references that may help us provide guidance.

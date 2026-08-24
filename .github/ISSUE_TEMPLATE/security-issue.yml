@@ -1,0 +1,58 @@
+name: Security Issue
+description: Report a potential security vulnerability (confidential)
+title: ""
+labels:
+  - security
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠️ Please do not include sensitive exploit details, credentials, secrets, or other information that should not be publicly disclosed. If this vulnerability requires confidential handling, use the project's private security reporting mechanism instead.
+
+  - type: textarea
+    id: vulnerability-description
+    attributes:
+      label: Description of Vulnerability
+      description: Provide a detailed but careful description of the security issue. Do not post sensitive exploit steps publicly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce (Careful)
+      description: Include reproduction steps safely, or provide them privately to maintainers.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Describe the severity and potential consequences of this vulnerability.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide the environment where the vulnerability was observed.
+      value: |
+        - OS / Platform:
+        - Software Version:
+        - Configuration / Deployment Details:
+    validations:
+      required: true
+
+  - type: textarea
+    id: mitigation-recommendations
+    attributes:
+      label: Mitigation / Recommendations
+      description: Optional. Suggest ways to mitigate or fix the vulnerability.
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any additional context, references, or notes.
