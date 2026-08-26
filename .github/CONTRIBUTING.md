@@ -1,4 +1,4 @@
-# Welcome to the Learning Directory contributing guide <!-- omit in toc (table of contents) -->
+# Contributing Guide <!-- omit in toc (table of contents) -->
 
 <!-- TODO: Test all of the links below to see which ones need to modified/updated for when the template is used. Then make note of them with `TODO: FOR THIS TEMPLATE: <instructions here>.` -->
 
@@ -136,9 +136,5 @@ When you're finished with the changes, create a pull request, also known as a PR
 ### Your PR is merged!
 
 Congratulations :tada::tada: Thank you!
-
-### Last thoughts
-
-I am currently a one-man "team". As such, any and all questions, comments, and suggestions are welcome. Please [reach out to me](https://github.com/JamieBort).
 
 Note - This file was **heavily borrowed** from the [Welcome to GitHub docs contributing guide](https://github.com/github/docs/blob/9c8028d68702e3ea3aec4d42093df1a95dfaa8d1/.github/CONTRIBUTING.md) and adapted here.
